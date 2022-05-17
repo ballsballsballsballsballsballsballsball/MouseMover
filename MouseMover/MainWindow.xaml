@@ -1,0 +1,15 @@
+﻿<Window x:Class="MouseMover.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MouseMover"
+        mc:Ignorable="d"
+        Title="MouseMover" Height="173" Width="200" ResizeMode="NoResize" WindowStyle="ToolWindow" Loaded="Window_Loaded">
+    <Grid>
+        <Button x:Name="enableButton" Content="Enable" HorizontalAlignment="Center" Margin="0,57,0,0" VerticalAlignment="Top" Height="26" Width="106" Click="enableButton_Click"/>
+        <Button x:Name="disableButton" Content="Disable" HorizontalAlignment="Center" Margin="0,88,0,0" VerticalAlignment="Top" Height="26" Width="106" Click="disableButton_Click"/>
+        <Label x:Name="statusLabel" Content="Moving disabled" HorizontalAlignment="Center" Height="42" Margin="0,10,0,0" VerticalAlignment="Top" Width="180" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+    </Grid>
+</Window>
