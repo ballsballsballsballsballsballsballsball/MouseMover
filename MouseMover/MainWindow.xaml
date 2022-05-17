@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MouseMover"
         mc:Ignorable="d"
-        Title="MouseMover" Height="173" Width="200" ResizeMode="NoResize" WindowStyle="ToolWindow" Loaded="Window_Loaded">
+        Title="MouseMover" Height="173" Width="200" ResizeMode="NoResize" WindowStyle="ToolWindow" Loaded="Window_Loaded" KeyDown="Window_KeyDown">
     <Grid>
         <Button x:Name="enableButton" Content="Enable" HorizontalAlignment="Center" Margin="0,57,0,0" VerticalAlignment="Top" Height="26" Width="106" Click="enableButton_Click"/>
         <Button x:Name="disableButton" Content="Disable" HorizontalAlignment="Center" Margin="0,88,0,0" VerticalAlignment="Top" Height="26" Width="106" Click="disableButton_Click"/>

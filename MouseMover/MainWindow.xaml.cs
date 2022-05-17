@@ -69,5 +69,15 @@ namespace MouseMover
                 SetCursorPos(x, y);
             }
         }
+
+        private void Window_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key != Key.Escape) return;
+
+            enableButton.IsEnabled = true;
+            disableButton.IsEnabled = false;
+            moving = false;
+            statusLabel.Content = "Moving disabled";
+        }
     }
 }
